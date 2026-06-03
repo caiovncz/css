@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    border-left: 5px solid #667eea;
+}
+
+header h1 {
+    color: #667eea;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #667eea;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #764ba2;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.05em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    margin: 20px 0;
+}
+
+footer {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 5px solid #667eea;
+    margin-top: 30px;
+}
+
+.rede-social a {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rede-social a:hover {
+    background: linear-gradient(135deg, #764ba2, #667eea);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+footer p {
+    color: #999;
+    font-size: 0.95em;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
